@@ -10,8 +10,9 @@ public class Exercise {
     private String description;
     private String objectives;
     private String warnings;
+    private String pace;
 
-    public Exercise(Integer id, String name, String category, String level, String strImage, String description, String objectives, String warnings) {
+    public Exercise(Integer id, String name, String category, String level, String strImage, String description, String objectives, String warnings, String pace) {
         this.id = id;
         this.name = name;
         this.category = category;
@@ -20,6 +21,7 @@ public class Exercise {
         this.description = description;
         this.objectives = objectives;
         this.warnings = warnings;
+        this.pace = pace;
     }
 
     public Exercise() {
@@ -90,6 +92,14 @@ public class Exercise {
         this.warnings = warnings;
     }
 
+    public String getPace() {
+        return pace;
+    }
+
+    public void setPace(String pace) {
+        this.pace = pace;
+    }
+
     @Override
     public String toString() {
         return "Exercise{" +
@@ -101,6 +111,7 @@ public class Exercise {
                 ", description='" + description + '\'' +
                 ", objectives='" + objectives + '\'' +
                 ", warnings='" + warnings + '\'' +
+                ", pace='" + pace + '\'' +
                 '}';
     }
 }
