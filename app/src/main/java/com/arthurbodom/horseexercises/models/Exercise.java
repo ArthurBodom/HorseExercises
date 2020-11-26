@@ -12,7 +12,7 @@ public class Exercise {
     private String warnings;
     private String pace;
 
-    public Exercise(Integer id, String name, String category, String level, String strImage, String description, String objectives, String warnings, String pace) {
+    public Exercise(Integer id, String name, String category, String level, String strImage, String description, String objectives, String attention, String pace) {
         this.id = id;
         this.name = name;
         this.category = category;
@@ -20,7 +20,7 @@ public class Exercise {
         this.strImage = strImage;
         this.description = description;
         this.objectives = objectives;
-        this.warnings = warnings;
+        this.warnings = attention;
         this.pace = pace;
     }
 

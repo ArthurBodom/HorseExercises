@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/equitap_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HorseExercises">
+        <activity
+            android:name=".activities.AddActivity"
+            android:label="Ajouter un exercice"
+            android:parentActivityName=".activities.MainActivity" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
