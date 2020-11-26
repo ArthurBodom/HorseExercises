@@ -4,11 +4,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/equitap"
+        android:icon="@mipmap/ic_launcher_chewal"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/equitap_round"
+        android:roundIcon="@mipmap/ic_launcher_chewal_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HorseExercises">
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity
             android:name=".activities.AddActivity"
             android:label="Ajouter un exercice"
